@@ -1,0 +1,61 @@
+ .aboutusgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 0.5rem;
+    margin: 0 auto;
+    background-color: transparent;
+    color: black;
+    font-family: Inter, sans-serif;
+    width:100%;
+    padding-bottom:100px;
+    padding-top:100px;
+    background-color: transparent; 
+ }
+
+
+
+ .aboutuspic{
+    margin-right:20px;
+    width:700px;
+    border-radius:12px;
+ }
+
+ .meettheteampic{
+    border-radius:12px;
+ }
+
+ .member-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 0.5rem;
+    background-color: transparent;
+    width: 800px;
+    margin: 0 auto;
+    border-radius:12px;
+ }
+
+ .member-column{
+    border:1px solid purple;
+    border-radius:12px;
+ }
+
+
+ul li{
+    list-style-position: inside;
+    margin: 0 auto;
+    text-align:center;
+}
+ ul li::marker{
+    background-color:black;
+ }
+
+ .member-column-centered{
+    margin: 0 auto;
+    border:1px solid purple;
+    border-radius:12px;
+    width:392px;
+    margin-top: 16px;
+    margin-bottom:16px;
+ }
