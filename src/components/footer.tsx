@@ -1,5 +1,5 @@
 import './footer.css'
-import LogoImage from '/Users/rthieu/panther-robotics-website/src/images/homepage.png'
+import LogoImage from '../homepage.png'
 import CountdownTimer from '../components/countdowntimer';
 
 export const Footer = () => {
