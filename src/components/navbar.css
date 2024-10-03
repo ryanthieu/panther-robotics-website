@@ -44,14 +44,14 @@ a[href]:link{
 }
 
 .login-button:hover{
-    background-color:purple;
+    background-color:gold;
     cursor: pointer;
     padding:5px;
 }
 
 .button {
-    color: white;
-    background-color: purple; 
+    color: gray;
+    background-color: gold; 
     font-weight: 500; /* font-medium */
     border-radius: 1rem; /* rounded-lg */
     font-size: 0.875rem; /* text-sm */
@@ -63,7 +63,8 @@ a[href]:link{
   }
   
   .button:hover {
-    background-color: rgb(80, 0, 80); /* hover:bg-blue-800 */
+    background-color: gold; /* hover:bg-blue-800 */
+    cursor:pointer;
   }
   
   .button:focus {
@@ -88,11 +89,11 @@ a[href]:link{
   }
 
   .navbarlink:hover{
-    color:purple;
+    color:gold;
   }
 
   .navbarlink:focus{
-    color:purple;
+    color:gold;
    
 
   }

@@ -5,6 +5,7 @@ import Panther from '../../images/panther.png'
 import Robotic from '../../images/panther.png'
 import Mountain from '../../images/place.png'
 import Layout from "../../components/layout/layout";
+import East from '../../images/east.png'
 import GalleryDiv from "../../components/layout/gallerydiv";
 
 export const Homepage = () =>{
@@ -23,12 +24,14 @@ export const Homepage = () =>{
                 <h1>recent snapshots</h1>
                 <p>follow us on our social media to get more updates</p>
                 <hr />
+                <p>scroll to see recent photos!</p>
                 <Layout>
                     <GalleryDiv>
                         <img src={FTCImage} alt="place"></img>
                         <img src={Panther} alt="panther" />
                         <img src={Robotic} alt="robotic"/>
                         <img src={Mountain} alt="mountain" />
+                        <img src={East} alt="east" />
                     </GalleryDiv>       
                 </Layout>
                 <hr />
