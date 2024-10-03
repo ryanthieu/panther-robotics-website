@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 interface GalleryDivProps {
   children: ReactNode[];
   direction?: string;
-  galleryItemsAspectRatio: "video" | "square" | "regular";
+  galleryItemsAspectRatio?: "video" | "square" | "regular";
 }
 
 export default function GalleryDiv({
