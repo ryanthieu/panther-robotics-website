@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import './App.css';
-import Scrollbar from '/Users/rthieu/panther-robotics-website/src/pages/homepage/homescroll';
+import Scrollbar from './pages/homepage/homescroll';
 import {Navbar} from './components/navbar';
 import {Footer} from './components/footer';
 import {LearnMore} from './pages/learnmore/learnmore';

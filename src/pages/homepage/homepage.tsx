@@ -4,8 +4,8 @@ import CountdownTimer from '../../components/countdowntimer';
 import Panther from '../../images/panther.png'
 import Robotic from '../../images/panther.png'
 import Mountain from '../../images/place.png'
-import Layout from "/Users/rthieu/panther-robotics-website/src/components/layout/layout";
-import GalleryDiv from "/Users/rthieu/panther-robotics-website/src/components/layout/gallerydiv";
+import Layout from "../../components/layout/layout";
+import GalleryDiv from "../../components/layout/gallerydiv";
 
 export const Homepage = () =>{
     const targetDate = new Date("2024-11-16T09:00:00");
