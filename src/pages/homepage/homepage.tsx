@@ -19,12 +19,10 @@ export const Homepage = () =>{
                     <button>Learn More</button>
                 </div>
             </div>
-            <div className="homehr">
-                <hr />
-            </div>
             <div className="abouttheteam">
                 <h1>recent snapshots</h1>
                 <p>follow us on our social media to get more updates</p>
+                <hr />
                 <Layout>
                     <GalleryDiv>
                         <img src={FTCImage} alt="place"></img>
@@ -33,6 +31,7 @@ export const Homepage = () =>{
                         <img src={Mountain} alt="mountain" />
                     </GalleryDiv>       
                 </Layout>
+                <hr />
                 <h1>who are we</h1>
                 <p>we are team #12926</p>
                 <button>Example Button</button>
