@@ -1,5 +1,5 @@
 import './footer.css'
-import LogoImage from '../homepage.png'
+import LogoImage from '../images/homepage.png'
 import CountdownTimer from '../components/countdowntimer';
 
 export const Footer = () => {
