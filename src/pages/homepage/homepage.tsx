@@ -7,19 +7,27 @@ import Mountain from '../../images/place.png'
 import Layout from "../../components/layout/layout";
 import East from '../../images/east.png'
 import GalleryDiv from "../../components/layout/gallerydiv";
+import Robot from '../../images/robot.png'
+import Panthera from '../../images/panthera.png'
+
 
 export const Homepage = () =>{
     const targetDate = new Date("2024-11-16T09:00:00");
     
     return(
         <div>
-             <div className="parent-centered-container">
-                <div className="centered-container">
-                    <h1>Panther Robotics</h1>
-                    <p className="para">FIRST Tech Challenge<br /> Team 12926</p>
-                    <button>Learn More</button>
+             <div className="homepage-grid">
+                <div className="left-homepage-grid">
+                <img src={Panthera} alt="panthera" className="panthera"/>
+                <h2><span className="italicize">FIRST</span> Tech Challenge</h2>
+                <h2>Team 12926</h2>
+                <button className="button">Learn More</button>
                 </div>
-            </div>
+                <div className="right-homepage-grid">
+                <img src={Robot} alt="robot" className="robot-image"/>
+                </div>
+             </div>
+             
             <div className="abouttheteam">
                 <h1>recent snapshots</h1>
                 <p>follow us on our social media to get more updates</p>

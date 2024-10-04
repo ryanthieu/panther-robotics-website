@@ -2,6 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import './App.css';
 import Scrollbar from './pages/homepage/homescroll';
+//import {Homepage} from './pages/homepage/homepage'
 import {Navbar} from './components/navbar';
 import {Footer} from './components/footer';
 import {LearnMore} from './pages/learnmore/learnmore';

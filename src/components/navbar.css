@@ -10,6 +10,7 @@
     background-color:transparent;
     border: none;
     border-radius:16px;
+    margin-top:-10px;
     
 }
 
@@ -50,7 +51,7 @@ a[href]:link{
 }
 
 .button {
-    color: gray;
+    color: rgb(82, 82, 82);
     background-color: gold; 
     font-weight: 500; /* font-medium */
     border-radius: 1rem; /* rounded-lg */
