@@ -1,6 +1,9 @@
 import './footer.css'
 import LogoImage from '../images/homepage.png'
 import CountdownTimer from '../components/countdowntimer';
+import { SocialIcon } from 'react-social-icons'
+import 'react-social-icons/instagram'
+
 
 export const Footer = () => {
     const targetDate = new Date("2024-11-16T09:00:00");
@@ -28,7 +31,10 @@ export const Footer = () => {
                     <li className="footerelement">Panther Robotics</li>
                 </ul>
                 <ul className="footer-column">
-                    <h2>social links</h2>
+                    <div className="footer-grid">
+                    <SocialIcon url="www.instagram.com" className="icon" />
+                   
+                    </div>
                     <CountdownTimer targetDate={targetDate} />
                 </ul>
             </div>

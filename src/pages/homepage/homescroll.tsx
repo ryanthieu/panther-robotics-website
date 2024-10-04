@@ -11,9 +11,9 @@ export default function Scrollbar() {
     });
   
     return (
-      <>
+      <div className="progress-bar-background">
         <motion.div className="progress-bar" style={{ scaleX }} />
         <Homepage />
-      </>
+      </div>
     );
   }

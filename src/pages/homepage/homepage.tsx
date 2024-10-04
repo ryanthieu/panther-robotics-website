@@ -15,8 +15,8 @@ export const Homepage = () =>{
         <div>
              <div className="parent-centered-container">
                 <div className="centered-container">
-                    <h1>The Team</h1>
-                    <p className="para">Panther Robotics Team 12926</p>
+                    <h1>Panther Robotics</h1>
+                    <p className="para">FIRST Tech Challenge<br /> Team 12926</p>
                     <button>Learn More</button>
                 </div>
             </div>

@@ -1,23 +1,28 @@
 .parent-centered-container{
-    background-image: url('../../images/homepage.png');
-    background-size: 400px;
+    background-image: url('../../images/robot.png');
+    background-size: cover;
     /**background-size:cover;*/
     background-position: center;
     background-attachment: fixed;
     margin: 0;
     padding: 0;
-    min-height: 500px;
+    min-height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
+  .abouttheteam{
+    margin-top:120px;
+  }
+
   .centered-container{
-    background-color: rgba(242, 235, 28, 0.8);
-    width:70%;
-    height: 200px;
-    border-radius: 10px;
+    background-color: rgba(248, 241, 26, 0.8);
+    width:100%;
+    min-height: 700px;
+    border-radius: 0px;
     padding: 20px;
+    color:black;
   }
 
   .para{
@@ -69,9 +74,14 @@
     left: 0;
     right: 0;
     height: 10px;
-    background: gold;
+    background-color: gold;
     transform-origin: 0%;
+    color:transparent;
   }
+
+.progress-bar-background{
+    background-color:transparent;
+}
 
   .countdowntimer{
     border:1px solid gold;
@@ -81,6 +91,13 @@
     padding-bottom:20px;
     border-radius: 12px;
     margin-bottom:20px;
+  }
+
+  .vertical-line{
+    width: 1px;         /* This makes the line thin (vertical) */
+  height: 100px;      /* Adjust the height to your preference */
+  background-color: black;  /* Line color */
+  margin: 0 auto;    
   }
 
   /*
