@@ -20,8 +20,8 @@
     gap:40px;
 }
 
-a[href],
-a[href]:link{
+
+.navbarlink{
   text-decoration: none;
   color:gray;
 }

@@ -11,12 +11,13 @@ export const Navbar = () => {
             </div>
           <div className="nav-links">
           <Link to ="/aboutus" className="navbarlink">About Us</Link>
+          <Link to="/awards" className="navbarlink">Awards</Link>
             <Link to ="/outreach" className="navbarlink">Outreach</Link>
             <Link to ="first" className="navbarlink">FIRST</Link>
             <>
             <div className="nav-links">
-            <Link to="learnmore">
-            <button type="button" className="button">Learn More</button></Link>
+            <Link to="robot">
+            <button type="button" className="button">Robot</button></Link>
             </div>
             </>
             </div>

@@ -7,6 +7,9 @@ import {Navbar} from './components/navbar';
 import {Footer} from './components/footer';
 import {LearnMore} from './pages/learnmore/learnmore';
 import {AboutUs} from './pages/aboutus/aboutus';
+import {Awards} from './pages/awards/awards'
+import {First} from './pages/first/first'
+import {Outreach} from './pages/outreach/outreach'
 
 function App() {
   return (
@@ -15,8 +18,11 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Scrollbar />} />
-          <Route path="/learnmore" element={<LearnMore />} />
+          <Route path="/awards" element={<Awards />} />
+          <Route path="/robot" element={<LearnMore />} />
           <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/first" element={<First />} />
+          <Route path="/outreach" element={<Outreach />} />
         </Routes>
         <Footer />
       </Router>

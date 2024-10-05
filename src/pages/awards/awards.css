@@ -1,0 +1,23 @@
+.awards-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 0.5rem;
+    margin: 0 auto;
+}
+
+.awards-column{
+    align-items: center;
+}
+
+.awards-pic{
+    border-radius:12px;
+}
+
+.awards-font{
+    width:200px;
+    margin-top:20px;
+}
+
+
+

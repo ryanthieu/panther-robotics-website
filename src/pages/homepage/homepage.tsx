@@ -31,7 +31,7 @@ export const Homepage = () =>{
             <div className="abouttheteam">
                 <h1>recent snapshots</h1>
                 <p>follow us on our social media to get more updates</p>
-                <hr />
+                <hr className="homedivide"/>
                 <p>scroll to see recent photos!</p>
                 <Layout>
                     <GalleryDiv>
@@ -42,14 +42,12 @@ export const Homepage = () =>{
                         <img src={East} alt="east" />
                     </GalleryDiv>       
                 </Layout>
-                <hr />
+                <hr className="homedivide"/>
                 <h1>who are we</h1>
                 <p>we are team #12926</p>
                 <button>Example Button</button>
             </div>
-            <div className="homehr">
-                <hr />
-            </div>
+            <hr className="homedivide"/>
             <div className="whatisparent">
                 <div className="whatisleft">
                     <img src={FTCImage} alt="FTC" className="ftcimage"></img>
@@ -59,10 +57,11 @@ export const Homepage = () =>{
                 <p>FTC is the FIRST Tech Challenge</p>
                 </div>
             </div>
+            <hr className="homedivide"/>
             <div className="countdowntimer">
             <CountdownTimer targetDate={targetDate} />
             </div>
-            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1ETTb8OJtAXOa64V7IiuHU3SWvk7-fOQ&ehbc=2E312F" width="640" height="480" title="competitionmap"></iframe>
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1ETTb8OJtAXOa64V7IiuHU3SWvk7-fOQ&ehbc=2E312F" width="640" height="480" title="competitionmap" className="tournament"></iframe>
         </div>
     );
 }

@@ -1,10 +1,15 @@
 .footerhr{
-    width:70%;
+    width:80%;
 }
 
 .footerelement{
     margin:10px;
     list-style-type: none;
+    color:white;
+}
+.footerlinks{
+    text-decoration: none;
+    color:white;
 }
 
 
@@ -71,3 +76,38 @@
     margin-bottom:20px;
     margin-top:-30px;
   }
+
+  
+.instagram-icon{
+    size:5000em;
+    vertical-align:middle;
+}
+
+.footer-grid{
+    margin-top: -30px;
+}
+
+.footer-text{
+    width:270px;
+    min-height:30px;
+}
+
+.footer-heading-image{
+    width:90px;
+    min-width:10px;
+    margin-bottom:20px;
+    margin-top:-30px;
+}
+.footer-heading-image2{
+    width:150px;
+    min-width:10px;
+    min-height:33px;
+    margin-bottom:20px;
+    margin-top:-33px;
+}
+
+/**.footer-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:-100rem;
+}*/
