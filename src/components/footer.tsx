@@ -40,7 +40,7 @@ export const Footer = () => {
                 </ul>
                 <ul className="footer-column">
                     <div className="footer-grid">
-                    <IconContext.Provider value={{ color: "yellow", size:"2.5em", className: "instagram-icon" }}>
+                    <IconContext.Provider value={{ color: "#f9d01e", size:"2.5em", className: "instagram-icon" }}>
                     <div>
                     <a href="https://www.instagram.com/panther.robotics.pesh/" target="_blank" rel="noopener noreferrer">
                     <FaInstagram />
@@ -50,7 +50,7 @@ export const Footer = () => {
                     
                    
                     </div>
-                    <CountdownTimer targetDate={targetDate} />
+                    <span className="transparentext"><CountdownTimer targetDate={targetDate} /></span>
                 </ul>
             </div>
             </footer>

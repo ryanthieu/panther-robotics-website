@@ -10,6 +10,7 @@ export const Navbar = () => {
             <Link to="/"><img src={Logo} alt="logo" className="logoimage" /></Link>
             </div>
           <div className="nav-links">
+            <Link to ="/" className="navbarlink">Home</Link>
           <Link to ="/aboutus" className="navbarlink">About Us</Link>
           <Link to="/awards" className="navbarlink">Awards</Link>
             <Link to ="/outreach" className="navbarlink">Outreach</Link>

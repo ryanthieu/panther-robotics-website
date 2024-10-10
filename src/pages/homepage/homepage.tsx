@@ -1,6 +1,6 @@
 import './homepage.css'
 import FTCImage from '../../images/intothedeep.png'
-import CountdownTimer from '../../components/countdowntimer';
+
 import Panther from '../../images/panther.png'
 import Robotic from '../../images/panther.png'
 import Mountain from '../../images/place.png'
@@ -12,7 +12,7 @@ import Panthera from '../../images/panthera.png'
 
 
 export const Homepage = () =>{
-    const targetDate = new Date("2024-11-16T09:00:00");
+    
     
     return(
         <div>
@@ -57,11 +57,7 @@ export const Homepage = () =>{
                 <p>FTC is the FIRST Tech Challenge</p>
                 </div>
             </div>
-            <hr className="homedivide"/>
-            <div className="countdowntimer">
-            <CountdownTimer targetDate={targetDate} />
-            </div>
-            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1ETTb8OJtAXOa64V7IiuHU3SWvk7-fOQ&ehbc=2E312F" width="640" height="480" title="competitionmap" className="tournament"></iframe>
+           
         </div>
     );
 }

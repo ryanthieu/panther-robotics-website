@@ -19,6 +19,7 @@
     margin-right:20px;
     width:700px;
     border-radius:12px;
+    box-shadow: 0 0 10px 3px gold;
  }
 
  .meettheteampic{
@@ -31,7 +32,7 @@
     gap: 1rem;
     padding: 0.5rem;
     background-color: transparent;
-    width: 800px;
+    width: 600px;
     margin: 0 auto;
     border-radius:12px;
  }
@@ -59,3 +60,14 @@ ul li{
     margin-top: 16px;
     margin-bottom:16px;
  }
+
+ .progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background-color: gold;
+    transform-origin: 0%;
+    color:transparent;
+  }
