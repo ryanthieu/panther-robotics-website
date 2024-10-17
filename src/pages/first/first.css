@@ -8,3 +8,12 @@
     transform-origin: 0%;
     color:transparent;
   }
+
+  .firstdescription, .firstcontainer{
+    margin-bottom:100px;
+    margin-top:50px;
+  }
+
+  .yellowfirst{
+    color:gold;
+  }

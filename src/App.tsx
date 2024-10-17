@@ -10,6 +10,9 @@ import RobotScrollbar from './pages/robot/robotscroll';
 //import {Homepage} from './pages/homepage/homepage'
 import {Navbar} from './components/navbar';
 import {Footer} from './components/footer';
+import {Error} from './pages/error/error'
+import ExampleSlideshow from './pages/robot/robot2';
+
 
 //import {AboutUs} from './pages/aboutus/aboutus';
 //import {Awards} from './pages/awards/awards'
@@ -28,6 +31,8 @@ function App() {
           <Route path="/aboutus" element={<AboutUsScrollbar />} />
           <Route path="/first" element={<FirstScrollbar />} />
           <Route path="/outreach" element={<OutreachScrollbar />} />
+          <Route path="/test" element={<ExampleSlideshow />} />
+          <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
       </Router>

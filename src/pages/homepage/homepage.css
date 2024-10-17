@@ -72,11 +72,10 @@
     box-shadow: 0 0 10px 3px gold;
 }
 
-
 .whatisright{
-    padding-top:50px;
-    place-items: center;
+    align-items:center;
 }
+
 
 .panther-image{
     margin: -50px;
@@ -146,6 +145,90 @@
 
   .italicize{
     font-style: italic;
+  }
+
+  .button2 {
+    color: white;
+    background-color: #181818; 
+    font-weight: 500; 
+    border-radius: 1rem; 
+    font-size: 0.875rem; 
+    padding: 0.6rem 1rem; 
+    text-align: center;
+    outline: none;
+    border: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .button2:hover {
+    background-color: black; /* hover:bg-blue-800 */
+    cursor:pointer;
+  }
+  
+  .button2:focus {
+    outline: none;
+    box-shadow: 0 0 0 1px rgba(98, 98, 98, 0.5); /* focus:ring-4 focus:ring-blue-300 */
+  }
+
+  .descriptionlogo{
+    margin-bottom:-100px;
+    width:300px;
+  }
+
+  .yellowtext{
+    color:gold;
+  }
+
+  .sponsorimage1{
+    height:150px;
+    width:400px;
+
+  } 
+
+  .sponsorimage2{
+    height:150px;
+  }
+
+  .sponsorimage3{
+  
+    height:150px;
+  }
+
+  .sponsor-column1{
+    height:450px;
+    display:grid;
+    align-content: center;
+    margin: 0 auto;
+  }
+
+  .sponsor-column2{
+    height:450px;
+    display:grid;
+    align-content: center;
+    margin: 0 auto;
+  }
+
+  .sponsor-column3{
+    height:450px;
+    display:grid;
+    align-content: center;
+    margin: 0 auto;
+  }
+
+  .sponsorsgrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width:80%;
+    margin: 0 auto;
+  }
+
+  .sponsor-links{
+    color:gold;
+  }
+
+  .sponsors-text{
+    text-decoration: underline;
+    color:gold;
   }
   /*
   test comment

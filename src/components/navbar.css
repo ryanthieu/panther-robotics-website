@@ -23,6 +23,7 @@
 
 .navbarlink{
   text-decoration: none;
+  font-weight:600;
   color:rgb(200, 170, 0);
 }
 
@@ -53,7 +54,7 @@
 .button {
     color: rgb(82, 82, 82);
     background-color: gold; 
-    font-weight: 500; /* font-medium */
+    font-weight: 700; /* font-medium */
     border-radius: 1rem; /* rounded-lg */
     font-size: 0.875rem; /* text-sm */
     padding: 0.6rem 1rem; /* px-4 py-2 */
@@ -95,15 +96,16 @@
 
   .navbarlink:focus{
     color:gold;
-   
+    border-bottom:1px solid gold;
+   }
 
-  }
+ 
 
 
   .navbarhr{
     border: none;
     height: 2px;
-    background-color: #2b2b2b;
+    background-color: #3d3d3d;
   }
 
   .displayname{

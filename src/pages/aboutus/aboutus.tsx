@@ -13,7 +13,6 @@ export const AboutUs = () =>{
                 <div className="member-column">
                 <h2>Programming:</h2>
                 <p>Ryan Thieu</p>
-                <p>Sanabhi</p>
                 <p>Sean</p>
                 <p>Haren</p>
                 </div>
@@ -24,7 +23,8 @@ export const AboutUs = () =>{
             </div>
             <div className="member-column-centered">
                 <h2>Documentation:</h2>
-                <p>Example</p>
+                <p>Kris Ruiz</p>
+                <p>Suditi</p>
             </div>
         </div>
             </div>

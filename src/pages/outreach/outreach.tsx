@@ -4,6 +4,7 @@ import OutreachExample from '../../images/outreachex.png'
 export const Outreach = () =>{
     return(
         <div>
+            <h1>Outreach</h1>
             <div className="top-outreach-grid">
                 <div className="top-outreach-image">
                     <img src={OutreachExample} alt="outreach" className="top-image"/>

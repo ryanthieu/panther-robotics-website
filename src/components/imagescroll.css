@@ -1,21 +1,9 @@
-.robotgrid{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.robotgridtext{
-    display: grid;
-    place-content: center;
-}
-
-/*claude*/
-
-.slideshow {
+.homeslideshow {
     position: relative;
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
     height: 32rem; /* 64px * 4 = 256px = 16rem */
-    background-color: #323232; /* gray-200 */
+    background-color: transparent; /* gray-200 */
     border-radius: 0.5rem;
     overflow: hidden;
   }
@@ -28,25 +16,26 @@
     justify-content: center;
   }
   
-  .slideshow-button {
+  .homeslideshow-button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: transparent;
     border-radius: 9999px;
     padding: 0.5rem;
     transition: background-color 0.3s ease;
+    color:gold;
   }
   
-  .slideshow-button:hover {
-    background-color: rgba(255, 255, 255, 0.75);
+  .homeslideshow-button:hover {
+    background-color: rgb(227, 193, 0);
   }
   
-  .slideshow-button-left {
+  .homeslideshow-button-left {
     left: 0.5rem;
   }
   
-  .slideshow-button-right {
+  .homeslideshow-button-right {
     right: 0.5rem;
   }
   
