@@ -71,3 +71,97 @@ ul li{
     transform-origin: 0%;
     color:transparent;
   }
+
+  .teampics{
+    margin-bottom:20px;
+  }
+
+  .programming-grid, .engineering-grid, .documentation-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width:90%;
+    margin:0 auto;
+  }
+
+  .programming-member, .engineering-member, .documentation-member{
+    border:1px solid gold;
+    width:80%;
+    margin: 0 auto;
+    padding-top:20px;
+    box-shadow: 0 0 10px 1px gold;
+  }
+
+ 
+
+  .programming-member-centered, .engineering-member-centered, .documentation-member-centered{
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    width:80%;
+  }
+
+
+
+  .headshot{
+    width:80%;
+  }
+
+  .aboutdescriptions{
+    margin: 0 auto;
+    width:70%;
+    margin-bottom:15px;
+    margin-top:-10px;
+  }
+
+  .aboutnames{
+    color:gold;
+  }
+
+  .aboutheadinghr{
+    width:20%;
+    margin: 0 auto;
+    margin-bottom:40px;
+    margin-top:-5px;
+  }
+
+
+  @media (min-width: 340px) {
+    
+}
+
+@media (max-width: 1024px) {
+  }
+
+  @media (max-width: 768px) {
+    .programming-grid, .engineering-grid, .documentation-grid {
+      grid-template-columns: 1fr; 
+      max-width: 95%;
+    }
+  
+    .programming-member, .engineering-member, .documentation-member, .programming-member-centered, .engineering-member-centered, .documentation-member-centered {
+      height: auto; 
+      min-height: 300px;
+      width:80%;
+      margin-bottom:2rem;
+      margin-top:0rem;
+    }
+  
+    .headshot {
+      height: auto;
+      max-width:80%;
+    }
+    .aboutusgrid{
+        max-width:95%;
+        grid-template-columns: 1fr;
+    }
+    .aboutuspic{
+        max-width:95%;
+    }
+
+  }
+
+
+
+  
+
+ 

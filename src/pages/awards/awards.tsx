@@ -1,7 +1,7 @@
 import './awards.css'
 import AwardsPic from '../../images/awards.png'
 import AwardsFont from '../../images/awardsfont.png'
-
+import ImageBrowser from '../../components/imagedesc'
 export const Awards = () => {
     return(
         <div>

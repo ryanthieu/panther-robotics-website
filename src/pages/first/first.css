@@ -10,10 +10,27 @@
   }
 
   .firstdescription, .firstcontainer{
-    margin-bottom:100px;
+    margin-bottom:50px;
     margin-top:50px;
   }
 
   .yellowfirst{
     color:gold;
+  }
+
+  .ftcdescription{
+    width:40%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+
+  @media (max-width: 768px) {
+   
+    .firstcontainer{
+        max-width:95%;
+        grid-template-columns: 1fr;
+    }
+    .firstvideo{
+        max-width:80%;
+    }
   }

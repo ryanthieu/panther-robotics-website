@@ -6,7 +6,7 @@ import NewLogo from '../../images/homepage.png'
 import Treat from '../../images/treat.png'
 import Barnes from '../../images/barnes.png'
 import PISD from '../../images/pisd.png'
-import ImageScroll from '../../components/imagescroll';
+import HomeImageBrowser from '../../components/homeimage'
 
 
 export const Homepage = () =>{
@@ -30,13 +30,12 @@ export const Homepage = () =>{
                 <hr className="homedivide"/>
                 <img src={NewLogo} alt="logo" className="descriptionlogo"/>
                 <h1 className="yellowtext">Eastside Pride</h1>
-                <p>we are team #12926 based in Plano, Texas.<br /><br />When we aren't competing in FTC, we help in the community through 
+                <p>We are Team #12926, Panther Robotics based in Plano, Texas.<br /><br />When we aren't competing in FTC, we help in the community through 
                 informational workshops and mentorship.</p>
                 <a href="/aboutus"><button className="button">About Us</button></a>
                 <hr className="homedivide"/>
-                <h1>recent snapshots</h1>
-                <p>follow us @panther.robotics.pesh on instagram!</p>
-                <ImageScroll />
+                <HomeImageBrowser />
+                <p>Follow us on social media to learn more about our team and our community outreach!</p>
             </div>
             <hr className="homedivide"/>
             <div className="whatisparent">
@@ -44,9 +43,6 @@ export const Homepage = () =>{
                     <img src={FTCImage} alt="FTC" className="ftcimage"></img>
                 </div>
                 <div className="whatisright">
-                <h1>What is FTC?</h1>
-                <p>FIRST Tech Challenge, is a robotics competition for students in grades 7–12 to compete head to head, by designing, building, and programming 
-                    a robot to compete in an alliance format against other teams.</p>
                 <a href="/first"><button className="button2">Learn More</button></a>
                 </div>
             </div>

@@ -4,6 +4,7 @@
 
 .navbar{
     display: flex;
+    flex-wrap: wrap;
     align-items:center;
     padding: 10px 20px;
     justify-content:space-between;
@@ -11,11 +12,13 @@
     border: none;
     border-radius:16px;
     margin-top:-10px;
+    margin-bottom:-10px;
     
 }
 
 .nav-links{
     display:flex;
+    flex-wrap: wrap;
     align-items:center;
     gap:40px;
 }
@@ -23,7 +26,7 @@
 
 .navbarlink{
   text-decoration: none;
-  font-weight:600;
+  font-weight:550;
   color:rgb(200, 170, 0);
 }
 
@@ -52,8 +55,8 @@
 }
 
 .button {
-    color: rgb(82, 82, 82);
-    background-color: gold; 
+    color: gold;
+    background-color: rgb(70, 70, 70); 
     font-weight: 700; /* font-medium */
     border-radius: 1rem; /* rounded-lg */
     font-size: 0.875rem; /* text-sm */
@@ -65,7 +68,7 @@
   }
   
   .button:hover {
-    background-color: gold; /* hover:bg-blue-800 */
+    background-color: rgb(64, 64, 64); /* hover:bg-blue-800 */
     cursor:pointer;
   }
   
@@ -127,3 +130,28 @@ margin-right:-30px;
     color: black;
     font-family: Inter, sans-serif;
   }
+
+  @media (min-width: 340px) {
+    .sponsors-section{
+       max-width:95%;
+       margin: 0 auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    .sponsorsgrid{
+        max-width:95%;
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+
+
+@media (max-width: 768px) {
+    .navbar {
+        display: block; 
+        max-width:95%;
+        gap:0.5rem;
+    }
+
+
+}

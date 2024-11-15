@@ -19,8 +19,7 @@
 
 .top-image{
     border-radius:8px;
-    min-width:20px;
-    max-width:500px;
+    width:90%;
     box-shadow: 0 0 10px 3px gold;
 }
 
@@ -48,4 +47,29 @@
     background-color: gold;
     transform-origin: 0%;
     color:transparent;
+  }
+
+  @media (min-width: 340px) {
+   
+   
+}
+
+@media (max-width: 1024px) {
+    .top-outreach-grid {
+        grid-template-columns: 1fr, 1fr; 
+        max-width: 80%;
+      }
+
+      .three-grid{
+        max-width:80%;
+        grid-template-columns: 1fr;
+      }
+  }
+
+@media (max-width: 768px) {
+    .top-outreach-grid, .three-grid {
+      grid-template-columns: 1fr; 
+      max-width: 80%;
+    }
+  
   }

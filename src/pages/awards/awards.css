@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .awards-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -30,6 +34,13 @@
     transform-origin: 0%;
     color:transparent;
   }
-
+  
+  @media (max-width: 768px) {
+   
+    .awards-grid{
+        max-width:95%;
+        grid-template-columns: 1fr;
+    }
+  }
 
 
